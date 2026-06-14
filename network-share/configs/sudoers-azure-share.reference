@@ -1,0 +1,4 @@
+# 可选：免密 sudo 切换热点（一次性部署）
+# 将 YOUR_USER 改为本机用户名，再运行 install-sudoers-hotspot.sh
+
+YOUR_USER ALL=(root) NOPASSWD: /usr/local/bin/pc-hotspot-hostapd-ctl

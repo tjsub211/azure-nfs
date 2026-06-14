@@ -1,0 +1,11 @@
+网络共享速查（同步到 ~/Share/）
+================================
+
+热点: ~/bin/pc-hotspot-toggle.sh
+
+手机: AzureNFS App（nfs-saf/）
+  构建  cd nfs-saf && ./build-and-install.sh
+  连接  <PC网关IP>:/export/azure-share
+  目录  from-pc  to-pc  from-phone  to-phone
+
+PC: ~/Share   ~/bin/open-share.sh

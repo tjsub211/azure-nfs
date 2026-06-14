@@ -1,0 +1,7 @@
+# azure-share NFS export — 由 setup-network-share.sh 部署到 /etc/exports
+# 绑定目录 /export/azure-share → ~/Share（见 setup 脚本）
+# 手机/PC 挂载: <PC网关IP>:/export/azure-share
+# all_squash + anonuid/anongid=1000：客户端访问映射为本机用户(1000)。
+#   将下方网段改为你的热点子网（示例 10.0.0.0/24）。
+
+/export/azure-share 10.0.0.0/24(rw,sync,crossmnt,no_subtree_check,insecure,all_squash,anonuid=1000,anongid=1000)

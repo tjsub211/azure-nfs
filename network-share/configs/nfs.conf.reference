@@ -1,0 +1,1 @@
+# 热点子网需与 configs/exports.reference 一致；nfs-server 随热点启停（reload-nfs.sh）

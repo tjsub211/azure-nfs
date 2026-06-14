@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AzureNFS</string>
+    <string name="edit_connection">编辑 NFS 连接</string>
+    <string name="add_connection">添加连接</string>
+    <string name="open_in_files">在系统文件里浏览</string>
+    <string name="name">显示名</string>
+    <string name="host">服务器 IP</string>
+    <string name="export_path">导出路径</string>
+    <string name="uid">UID</string>
+    <string name="gid">GID</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="no_connections">还没有连接，点右上角“+”添加。\n添加后可在系统“文件”App 或 MiXplorer/Solid 的“文档提供者”里看到。</string>
+    <string name="empty_fields">服务器 IP 和导出路径不能为空</string>
+</resources>

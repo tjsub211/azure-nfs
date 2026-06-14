@@ -1,0 +1,14 @@
+# Gradle / Android build artifacts
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# Local machine config (SDK path)
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
